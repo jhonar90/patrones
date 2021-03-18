@@ -39,3 +39,15 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+@media(min-width:768px){
+    .dos-columnas{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem; /**esta es la forma nueva de dar separacion a las columnas con flex, falta mas soporte a navegadores**/
+    }
+    
+}
+
+/*.entrada-blog{
+  /**  flex: 0 0 cal( 50% - 1rem );**//**esta es la forma anterior de darle separacion a las columnas en flex**/
+}
