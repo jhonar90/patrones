@@ -49,3 +49,12 @@ p {
 
 
 /** CODIGO AQUI **/
+@media (min-width:768px ){
+        .trs_columnas{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        column-gap: 2rem;
+        
+    }
+
+}
